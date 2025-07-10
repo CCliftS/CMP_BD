@@ -639,3 +639,6 @@ END;
 
 ALTER TABLE info_tarea
 ADD cantidad INT;
+
+ALTER TABLE info_tarea
+ALTER COLUMN cantidad VARCHAR(50);
